@@ -17,7 +17,8 @@ dependencies:
   crypto: ^3.0.2
   meta: ^1.7.0
   path: ^1.8.0
-  riverpod_analyzer_utils: ^0.5.3
+  riverpod_analyzer_utils:
+    path: ../riverpod_analyzer_utils
   riverpod_annotation:
     path: ../riverpod_annotation
   source_gen: ^1.2.0

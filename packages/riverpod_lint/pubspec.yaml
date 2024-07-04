@@ -20,7 +20,8 @@ dependencies:
   path: ^1.8.1
   riverpod:
     path: ../riverpod
-  riverpod_analyzer_utils: ^0.5.3
+  riverpod_analyzer_utils:
+    path: ../riverpod_analyzer_utils
   source_span: ^1.8.0
   yaml: ^3.1.1
 
