@@ -5,13 +5,15 @@ repository: https://github.com/rrousselGit/riverpod
 issue_tracker: https://github.com/rrousselGit/riverpod/issues
 funding:
   - https://github.com/sponsors/rrousselGit/
+publish_to: none
 
 environment:
   sdk: ">=2.17.0 <4.0.0"
 
 dependencies:
   meta: ^1.7.0
-  riverpod: 2.5.1
+  riverpod:
+    path: ../riverpod
 
 dev_dependencies:
   test: ^1.21.0
