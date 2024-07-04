@@ -31,14 +31,14 @@ class ProviderListenableExpression extends RiverpodAst {
           DartObject? annotation;
           try {
             annotation =
-                providerForType.firstAnnotationOfExact(element.variable2!);
+                providerForType.firstAnnotationOfExact(element.variable);
           } catch (_) {
             return;
           }
 
           if (annotation == null) {
             providerElement =
-                LegacyProviderDeclarationElement.parse(element.variable2!);
+                LegacyProviderDeclarationElement.parse(element.variable);
           } else {
             providerElement = _parseGeneratedProviderFromAnnotation(annotation);
           }
